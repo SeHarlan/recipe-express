@@ -4,7 +4,7 @@ const request = require('supertest');
 const app = require('../lib/app');
 const connect = require('../lib/utils/connect');
 const mongoose = require('mongoose');
-const Recipe = require('../lib/models/Recipe');
+const Recipe = require('../lib/models/Recipe.js');
 
 describe('app routes', () => {
   beforeAll(() => {
